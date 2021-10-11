@@ -1,0 +1,42 @@
+1)      Criar uma função de seta (arrow function) que recebe 2 parâmetros e retorna a multiplicação deles.
+
+a)       Chamar a função e exibir o resultado no console.
+
+ >>>  var multiplicar = (numero1, numero2) =>{
+    let multiplicação = numero1 * numero2;
+    console.log("O resultado de " + numero1 + " x " + numero2 + " é igual a " + multiplicação);
+}
+
+console.log(multiplicar(4, 6));
+
+2)      Criar uma função de seta (arrow function) que recebe três números como parâmetros , e retorna o maior número dos 3 valores.
+
+a)       Chamar a função e exibir o resultado no console.
+
+ >>>  var Maior = (numero1, numero2, numero3) =>{
+    if(numero1 > numero2 && numero1 > numero3){
+        console.log("O mais número é o " + numero1);
+    } else if(numero2 > numero1 && numero2 > numero3){
+        console.log("O mais número é o " + numero2);
+    } else if(numero3 > numero1 && numero3 > numero2){
+        console.log("O maior número é o " + numero3);
+    } else{
+        console.log("O valores são iguais.")
+    }
+}
+
+console.log(Maior(10, 3, 5))
+
+3)      Criar uma função de seta (arrow function) que recebe um parâmetro inteiro e retorna a palavra ímpar ou par de acordo com o valor recebido.
+
+a)       Chamar a função e exibir no console o resultado.
+
+>> var numero = valor =>{
+    if(valor % 2 == 0){
+        console.log("Par")
+    } else{
+        console.log("Ímpar")
+    }
+}
+
+console.log(numero(553))
